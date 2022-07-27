@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 
 @NgModule({
   declarations: [
     AppComponent,
-  
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MdbCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
