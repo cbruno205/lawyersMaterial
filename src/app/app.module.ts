@@ -9,12 +9,14 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { ProcesosComponent } from './pages/procesos/procesos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    ProcesosComponent
   ],
   imports: [
     BrowserModule,

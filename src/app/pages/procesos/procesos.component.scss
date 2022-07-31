@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.container_formulario {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container_formulario{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem 2rem ;
+}
+.imagen{
+    display: block;
+    margin:  auto
+}
