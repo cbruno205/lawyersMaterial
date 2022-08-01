@@ -10,13 +10,15 @@ import { HomeComponent } from './pages/home/home.component';
 
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { ProcesosComponent } from './pages/procesos/procesos.component';
+import { AreasEspeComponent } from './pages/areas-espe/areas-espe.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ProcesosComponent
+    ProcesosComponent,
+    AreasEspeComponent
   ],
   imports: [
     BrowserModule,
