@@ -10,14 +10,18 @@ body{
     color: #226679;
 }
 .primera_fila{
-  margin: 20px 30px;
+  margin: 0px 30px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   justify-content: center;
 }
 .area_item{
-  border-right: #226679 2px solid;
-  border-top: #226679 2px solid;;
+  border-right: #226679 1px solid;
+ 
+}
+.area_item_2{
+  border-right: #226679 1px solid;
+  border-top: #226679 1px solid;
 }
 .final{
   border-right: none;
@@ -42,9 +46,9 @@ p{
   width: 6rem;
 }
 .segunda_fila{
-  margin: 20px 100px;
+  margin: 0px 100px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   justify-content: center;
-  gap: 0.2rem;
+  ;
 }
