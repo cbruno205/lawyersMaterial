@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.titulo{
+    text-align: center;
+    margin: 2rem 5rem;
+    text-transform: uppercase;
+    color: #226679;
+    border-bottom: #d3e0ea solid 2px;
+}
+.primera_fila{
+  margin: 0px 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+}
+.area_item{
+  border-right: #226679 1px solid;
+ 
+}
+.area_item_2{
+  border-right: #226679 1px solid;
+  border-top: #226679 1px solid;
+}
+.final{
+  border-right: none;
+}
+.titulo_area{
+  text-align: center;
+}
+.descripcion_area{
+  text-align: center;
+}
+h2{
+  font-size: 1.1rem;
+}
+p{
+  font-size: .8rem;
+}
+.icon_area{
+  display: block;
+  margin: 0 auto;
+  color: #226679;
+  height: 6rem;
+  width: 6rem;
+}
+.segunda_fila{
+  margin: 0px 100px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  ;
+}
