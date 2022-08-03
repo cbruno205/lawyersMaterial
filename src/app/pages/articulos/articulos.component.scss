@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+.container{
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+}
+.sidenews{
+    margin: 20px 30px;
+}
+.caja{
+    display: flex;
+}
+.in{
+    border-radius: 10px;
+    border-width: .5px;
+}
+.bi-search{
+    display: block;
+    margin: auto 5px;
+    color: white;
+}
+.buscador{
+    padding: 15px;
+    background-color: #226679;
+    border-radius: 10px;
+}
+.categorias{
+    
+    background-color: #226679;
+    margin: 20px 0;
+}
+.caja_categoria{
+    background-color: white;
+    text-align: center;
+    color: #226679;
+    margin: 0px 50px;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+}

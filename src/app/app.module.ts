@@ -10,7 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { ProcesosComponent } from './pages/procesos/procesos.component';
-import { AreasEspeComponent } from './pages/areas-espe/areas-espe.component'
+import { AreasEspeComponent } from './pages/areas-espe/areas-espe.component';
+import { ArticulosComponent } from './pages/articulos/articulos.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AreasEspeComponent } from './pages/areas-espe/areas-espe.component'
     HeaderComponent,
     HomeComponent,
     ProcesosComponent,
-    AreasEspeComponent
+    AreasEspeComponent,
+    ArticulosComponent
   ],
   imports: [
     BrowserModule,
